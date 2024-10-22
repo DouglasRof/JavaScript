@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            background-color: salmon;
+            font: normal 14px 'Roboto', arial;
+            
+        }
+
+        #conteiner{
+            height: 100vh;
+            width: 100vw;
+            background-color: salmon;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        #conteudo{
+            height: 150px;
+            width: 300px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0px 3px 5px #00000038;
+            text-align: center;
+
+        }
+
+        #conteudo > h1 {
+            padding-top: 20px;
+            color: rgb(255, 108, 108);
+            text-shadow: 1px 1px 2px black;
+            padding-bottom: 20px;
+        }
+
+        #res{
+            padding-top: 10px;
+        }
+
+        
+    </style>
+    <title>Exercicio Nacionalidade</title>
+</head>
+<body>
+    <main>
+        <div id="conteiner">
+            <div id="conteudo">
+                <h1>Sua Nacionalidade
+                </h1>
+                <input type="text" name="txtn" id="txtn" placeholder="Seu País Aqui...">
+                <input type="button" value="OK" onclick="verificar()"> 
+                <div id="res"></div>
+            </div>
+
+        </div>
+    </main>
+    <script>
+        function verificar(){
+            
+        var nacio = document.getElementById("txtn")
+        var país = String(nacio.value)   
+        if (país == 'Brasil'){
+             res.innerHTML = '<p><strong>Brasileiro</strong></p>'
+        }else{
+            res.innerHTML = '<p><strong>Estrageiro</strong></p>'
+            }
+        }
+
+    </script>
+</body>
+</html>
