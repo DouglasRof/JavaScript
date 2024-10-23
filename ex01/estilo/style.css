@@ -13,7 +13,7 @@ header > h1{
 
 body{
     background-color: dodgerblue;
-    
+    height: 100vh;
 }
 
 section{
@@ -23,15 +23,14 @@ section{
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.295);
-
 }
 
 footer{
-    background-color: dodgerblue;
     color:white;
     text-align: center;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.336);
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.541);
     font-style: italic;
+    font-size: 1.3em;;
 }
 
 div#info{
@@ -39,25 +38,22 @@ div#info{
 }
 
 div#img > #manha {
-    width: 200px;
-    display: block;
+    width: 250px;
     margin: auto;
     padding: 20px;
-   display: none;
+   display: block;
 }
 
 div#img > #tarde {
-    width: 200px;
-    display: block;
+    width: 250px;
     margin: auto;
     padding: 20px;
-   display: none;
+   display: block;
 }
 
 div#img > #noite {
-    width: 200px;
-    display: block;
+    width: 250px;
     margin: auto;
     padding: 20px;
-   display: none;
+   display: block;
 }
