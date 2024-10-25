@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Food Delivery</div>
+            <ul class="nav-links">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Restaurantes</a></li>
+                <li><a href="#">Ofertas</a></li>
+                <li><a href="#">Sobre Nós</a></li>
+                <li><a href="#">Contato</a></li>
+                <li><a href="#" id="cart">Carrinho (0)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="banner">
+        <h1>Peça sua comida favorita agora!</h1>
+        <p>Entregamos quente e rápido na sua porta.</p>
+        <button class="btn">Peça Agora</button>
+    </section>
+
+    <!-- Categorias -->
+    <section class="categories">
+        <h2>Categorias Populares</h2>
+        <div class="category-list">
+            <div class="category-item">Pizza</div>
+            <div class="category-item">Sushi</div>
+            <div class="category-item">Hambúrguer</div>
+            <div class="category-item">Salada</div>
+        </div>
+    </section>
+
+    <!-- Produtos em Destaque -->
+    <section class="featured-products">
+        <h2>Pratos em Destaque</h2>
+        <div class="product-list">
+            <div class="product-item">
+                <img src="pizza.jpg" alt="Pizza">
+                <h3>Pizza Margherita</h3>
+                <p>R$ 29,90</p>
+                <button class="btn add-to-cart" data-name="Pizza Margherita" data-price="29.90">Adicionar ao Carrinho</button>
+            </div>
+            <div class="product-item">
+                <img src="sushi.jpg" alt="Sushi">
+                <h3>Sushi Combo</h3>
+                <p>R$ 49,90</p>
+                <button class="btn add-to-cart" data-name="Sushi Combo" data-price="49.90">Adicionar ao Carrinho</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
