@@ -19,6 +19,10 @@ h1{
     padding: 40px;
 }
 
+div > p{
+    padding: 10px;
+}
+
 div{
     background-color: white;
     height: 300px;
